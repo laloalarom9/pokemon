@@ -2,7 +2,7 @@ services:
   spring-boot-app:
     build: ..
     ports:
-      - "8226:8090"
+      - "8226:8080"
     volumes:
       - ./logs:/app/logs
     environment:
