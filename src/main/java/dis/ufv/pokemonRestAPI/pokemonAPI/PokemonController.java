@@ -14,7 +14,7 @@ public class PokemonController {
     public ArrayList<Pokemon> pokemons(){
         return new LectorJson().leeFicheroJson();
     }
-
+//
     @GetMapping("/pokemon/porNombre/{nombre}")
     public ResponseEntity<Pokemon> getPorNombre(@PathVariable String nombre){
         ArrayList<Pokemon> listaPokemons = new LectorJson().leeFicheroJson();
