@@ -101,7 +101,7 @@ public class Pokemon {
     public int getDefense() {
         return defense;
     }
-
+    //
     public void setDefense(int defense) {
         this.defense = defense;
     }
